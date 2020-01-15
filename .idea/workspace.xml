@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f8ab792-6681-4f2f-8cac-8ca874b672b8" name="Default Changelist" comment="Add main files">
+      <change afterPath="$PROJECT_DIR$/.idea/SEG-Major-Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Hospital.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/ContentsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/HospitalController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/MailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/PatientController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/NoBack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/NoHistory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Mail/MissedAppointment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Mail/Notification.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Mail/ScheduleRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Patient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/ReadOnlyBase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/TestFrequency.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/larecipe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/factories/HospitalFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/factories/PatientFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/migrations/2019_03_14_015526_create_hospitals_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/migrations/2019_03_14_015633_create_patients_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/migrations/2019_03_25_191726_create_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/seeds/HospitalTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/database/seeds/PatientTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/docs/routes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/css/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/css/foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/css/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/GPs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/centre.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/logo-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/modify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/nhs.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/overdue.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/patientLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/patients.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/images/tests.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/js/vendor/foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/js/vendor/foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/js/vendor/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/js/vendor/what-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/picker.date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/picker.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/classic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/classic.date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/classic.time.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/default.date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/default.time.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/themes/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/bs_BA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ca_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/el_GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/et_EE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/eu_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/fi_FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/gl_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/hi_IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/hr_HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/is_IS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ko_KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/lt_LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/lv_LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/nb_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ne_NP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/sk_SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/sl_SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/uk_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/compressed/translations/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/legacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/picker.date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/picker.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/_variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/base.date.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/base.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/base.time.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/classic.date.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/classic.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/classic.time.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/default.date.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/default.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/default.time.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes-source/rtl.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/classic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/classic.date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/classic.time.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/default.date.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/default.time.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/themes/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/FORMATTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/NAMING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/bs_BA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ca_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/el_GR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/et_EE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/eu_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/fa_ir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/fi_FI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/gl_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/he_IL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/hi_IN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/hr_HR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/is_IS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ko_KR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/lt_LT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/lv_LV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/nb_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ne_NP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/pt_PT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/sk_SK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/sl_SI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/uk_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/lib/translations/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/version-bump.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/pickadate/version-commit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/appointment_notification.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/contents/editCredentials.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/contents/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/flash-messages.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospital/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospital/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospital/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospital/modify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospital/newHospital.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospital/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospitals/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/hospitals/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app/app1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app/app2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app/delete_warning.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app/homeButton.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/app/logoutForm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/patient/allTestsTableBody.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/patient/allTestsTableHeader.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/patient/overdueTableBody.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/patient/overdueTableHeader.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/patient/patientsTableBody.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/layouts/patient/patientsTableHeader.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/missed_appointment.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/allPatients.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/allTestsComplex.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/allTestsOver.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/allTestsUnder.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/blood_tests_table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/changeTestDate.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/complex_patients.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/modify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/newPatient.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/overdue.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/overdueComplex.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/overdueOver12.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/overdueUnder12.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/patientsOver12.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/patientsUnder12.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/patient/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/schedule_appointment.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/DuskTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/AddPatientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/CreateHospitalTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/DeleteHospitalTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/DeletePatientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/EditPatientTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/LoginTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/MailTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/RegisterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Feature/UpdateHospitalTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Unit/HospitalUnitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/tests/Unit/PatientUnitTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seg_major/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/database/factories/PatientFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#7#20#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/database/factories/HospitalFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/public/pickadate/version-bump.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/resources/views/layouts/patient/allTestsTableHeader.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/app/Http/Controllers/PatientController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/seg_major/public/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/database/factories/UserFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/tests/Feature/AddPatientTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/seg_major/tests/Feature/DeleteHospitalTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/seg_major/public/pickadate/version-bump.js" />
+        <option value="$PROJECT_DIR$/seg_major/app/Http/Controllers/PatientController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="553" />
+    <option name="y" value="170" />
+    <option name="width" value="1440" />
+    <option name="height" value="826" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f8ab792-6681-4f2f-8cac-8ca874b672b8" name="Default Changelist" comment="" />
+      <created>1579083580644</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579083580644</updated>
+      <workItem from="1579083583927" duration="629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="629000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add main files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add main files" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/tests/Feature/AddPatientTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/tests/Feature/DeleteHospitalTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/database/factories/PatientFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#7#20#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/database/factories/HospitalFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/public/pickadate/version-bump.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/resources/views/layouts/patient/allTestsTableHeader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/app/Http/Controllers/PatientController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seg_major/public/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

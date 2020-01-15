@@ -1,0 +1,441 @@
+body {
+    margin:0;
+}
+
+
+/* STYLE FOR HEADER */
+#loginHeaderText{
+    padding-left: 1.2%;
+}
+#headerMedia{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+
+#headerTables{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #005EB8;
+}
+
+#headerText {
+    padding-left: 1.2%;
+    padding-top: 40px
+}
+
+header{
+    height: 200px;
+    background-color : #005EB8;
+}
+
+#tableHeaderText{
+    color: white;
+    padding-left: 1.2%;
+    padding-top: 60px;
+}
+
+.headerImage{
+    padding-top: 48px;
+    padding-left: 50px;
+    padding-right: 1.2%;
+}
+
+
+.header-line{
+    background-color:white;
+    width: 78%;
+    height: 1px;
+    opacity: 0.2;
+    padding-left: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 30px
+
+}
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 25px
+}
+
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 21px
+
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 1em;
+}
+
+hr {
+    background-color: #005EB8;
+    height: 1px;
+    border: 0;
+}
+
+
+#textColor {
+    color: #005EB8;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* STYLE FOR LOGIN PAGE */
+.loginButton {
+    background-color: #005EB8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    align:"right";
+    border-radius: 10px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Add padding to containers */
+.loginContainer {
+    background-color: rgb(235, 238, 240);
+    padding: 16px;
+    padding-left: 14%;
+    padding-right: 14%;
+    padding-bottom: 4%;
+    padding-top: 4%
+}
+
+/* The "Forgot password" text */
+.register {
+    float: right;
+    font-size: 16px
+}
+
+/* STYLE FOR HOME PAGE */
+
+.patientsHospitalsContainer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width:100%;
+    height:auto;
+    display:grid;
+    grid-template-columns: 10% 10%;
+    grid-row: 20% 20%;
+    grid-column-gap: 35%;
+    grid-row-gap: 200px;
+}
+
+
+.testsContainer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width:100%;
+    height:auto;
+    background-color:rgb(235, 238, 240);
+    display:grid;
+    grid-template-columns: 10% 10%;
+    grid-row: 20% 20%;
+    grid-column-gap: 35%;
+    grid-row-gap: 200px;
+}
+
+.images{
+    margin-left: 190%;
+    margin-right: 190%;
+}
+
+/* labels and descriptions of buttons */
+.bottomLabel{
+    padding-left: 190%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.topLabel{
+    padding-left: 190%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.description{
+    padding-left: 150%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-top: 10px;
+}
+
+.description2{
+    padding-left: 150%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    padding-top: 10px;
+}
+
+
+/* STYLE FOR TABLES */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 100px;
+    table-layout: fixed;
+}
+
+td, th {
+    border: 1px solid #C4D1C7;
+    text-align: left;
+    padding: 8px;
+    word-wrap:break-word;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#blood {
+    width: 78%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.smallBtn {
+    width: 40px;
+}
+
+.smallEditBtn {
+    width: 50px;
+}
+
+.smallDeleteBtn {
+    width: 35px;
+}
+
+.setting {
+    background-color: inherit;
+    border: none;
+}
+
+.settingBtn {
+    text-align: center;
+}
+
+.checkboxBtn{
+    text-align: center;
+}
+
+#submitButton {
+    background-color: #005EB8;
+    color: white;
+}
+
+#modalHeader {
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+form label{
+    font-weight:bold;
+}
+
+.notificationButton {
+    background-color: #005EB8;
+    margin-left: 2px;
+    border: none;
+}
+
+.allTestsNotificationButton {
+    background-color: #005EB8;
+    border: none;
+}
+
+.setDateButton {
+    background-color: #005EB8;
+    margin-left: 28px;
+    border: none;
+    margin-top: 3px;
+    width: 86px;
+}
+
+.nextDateButton {
+    background-color: #005EB8;
+    color: white;
+    margin-left: 42px;
+    border: none;
+}
+
+#allTestsReceived {
+    padding-right:20px;
+}
+
+
+/* Filter By and Search */
+
+#fltrSrch {
+    display: inline-block;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+}
+
+.search {
+    width: 25%;
+    margin-right:11%;
+    float: right;
+
+}
+.dropbtn {
+    text-align: left;
+    padding: 10px;
+    float: left;
+    width: 100%;
+}
+
+.filter {
+    position: relative;
+    display: inline-block;
+    margin-left: 11%;
+    padding-top: 10px;
+    width: 25%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+.filter:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgb(169,169,169);
+}
+
+/*back button*/
+
+#backForm{
+    padding-left: 11%;
+}
+
+#emailForm {
+    padding-left: 20%;
+
+}
+
+.back {
+    float: left;
+    border: none;
+    background-color: #005EB8;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.back:hover{
+    background-color: rgb(6, 34, 59);
+}
+
+/*logout button*/
+
+#logoutForm{
+    padding-right: 11%;
+}
+
+.logout {
+    float: right;
+    border: none;
+    background-color: #005EB8;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.logout:hover {
+    background-color: rgb(6, 34, 59);
+}
+
+/*Footer Styling*/
+
+footer{
+    height: 150px;
+    background-color : #005EB8;
+}
+
+#pushDown {
+    margin-bottom: 95px;
+}
+
+#pushDownTest {
+    margin-bottom: 175px;
+}
+
+.footerImage{
+    padding-top: 20px;
+    padding-left: 12.5%;
+}
+
+.footer-line{
+    background-color:white;
+    width: 78%;
+    height: 1px;
+    opacity: 0.2;
+    position: sticky;
+    padding-left: 5px;
+}
+
+
+
+.page-wrap {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.no-border
+{
+    border-top: 0 none;
+}
+
